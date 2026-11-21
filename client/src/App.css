@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 575.98px) {
+  .job-detail-card .fs-4, 
+  .job-detail-card .fs-md-2, 
+  .job-detail-card .display-6 {
+    font-size: 1.1rem !important;
+  }
+  .job-detail-card .badge {
+    font-size: 0.98rem !important;
+    padding: 0.35em 0.8em !important;
+  }
+  .job-detail-card span[role="img"] {
+    font-size: 1rem !important;
+  }
+}

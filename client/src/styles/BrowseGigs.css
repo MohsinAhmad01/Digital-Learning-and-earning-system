@@ -1,0 +1,121 @@
+.browse-gigs-page {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+/* Header responsive fix */
+.browse-gigs-header .form-select {
+  min-width: 170px;
+}
+
+/* Full card */
+.gig-card {
+  transition: 0.25s ease;
+}
+
+.gig-card:hover {
+  transform: translateY(-4px);
+}
+
+/* IMPORTANT FIXED IMAGE AREA */
+.gig-card-image-box {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  background: #e5e7eb;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* Image always fits inside fixed area */
+.gig-card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/* Placeholder same size as image */
+.gig-card-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: #d9d9d9;
+}
+
+/* Heart button fixed on image */
+.gig-heart-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Seller text should not break badly */
+.seller-info-text {
+  min-width: 0;
+}
+
+.seller-info-text h6,
+.seller-info-text p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Title fixed line height */
+.gig-card-title {
+  min-height: 44px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .gig-card-image-box {
+    height: 200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .browse-gigs-header h2 {
+    font-size: 24px;
+  }
+
+  .browse-gigs-header .input-group .btn {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .browse-gigs-header .d-flex {
+    align-items: flex-start !important;
+  }
+
+  .browse-gigs-header .form-select {
+    width: 100%;
+  }
+
+  .gig-card-image-box {
+    height: 220px;
+  }
+}
+
+/* Very small mobile */
+@media (max-width: 380px) {
+  .gig-card-image-box {
+    height: 190px;
+  }
+
+  .gig-card-title {
+    font-size: 14px;
+  }
+}

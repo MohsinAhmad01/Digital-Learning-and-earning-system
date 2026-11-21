@@ -1,0 +1,200 @@
+.create-gig-page {
+  background: #f8fafc;
+  min-height: 100vh;
+}
+
+.create-gig-page .card {
+  border: 1px solid #edf2f7 !important;
+}
+
+.create-gig-page .form-control,
+.create-gig-page .form-select {
+  border-color: #dbe3ef;
+  color: #111827;
+  font-size: 14px;
+  border-radius: 9px;
+}
+
+.create-gig-page .form-control:focus,
+.create-gig-page .form-select:focus {
+  border-color: #005450;
+}
+
+.input-count {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.gig-upload-box {
+  width: 100%;
+  min-height: 150px;
+  border: 1.5px dashed #94a3b8;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #475569;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gig-upload-box:hover {
+  border-color: #005450;
+  background: #f0fdfa;
+}
+
+.gig-upload-box p {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.gig-upload-box span {
+  font-size: 13px;
+}
+
+.gig-preview-img {
+  width: 92px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid #e5e7eb;
+}
+
+.description-editor {
+  border: 1px solid #dbe3ef;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.editor-toolbar {
+  height: 50px;
+  border-bottom: 1px solid #dbe3ef;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+}
+
+.editor-toolbar button {
+  border: none;
+  background: transparent;
+  color: #334155;
+  font-size: 16px;
+}
+
+.description-editor textarea {
+  resize: none;
+  padding: 18px;
+  font-size: 14px;
+}
+
+.textarea-count {
+  position: absolute;
+  right: 14px;
+  bottom: 10px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.package-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid #dbe3ef;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.package-tab-btn {
+  border: none;
+  background: #ffffff;
+  padding: 14px 8px;
+  font-weight: 700;
+  color: #334155;
+  border-right: 1px solid #dbe3ef;
+}
+
+.package-tab-btn:last-child {
+  border-right: none;
+}
+
+.package-tab-btn.active {
+  color: #005450;
+  background: #ffffff;
+  box-shadow: inset 0 0 0 2px #0f766e;
+}
+
+.package-desc-count {
+  position: absolute;
+  right: 14px;
+  bottom: 10px;
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.package-feature-close {
+  width: 8px;
+  height: 8px;
+  font-size: 8px;
+}
+
+@media (max-width: 768px) {
+  .create-gig-page h2 {
+    font-size: 24px;
+  }
+
+  .package-tabs {
+    grid-template-columns: 1fr;
+  }
+
+  .package-tab-btn {
+    border-right: none;
+    border-bottom: 1px solid #dbe3ef;
+  }
+
+  .package-tab-btn:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .create-gig-page .card-body {
+    padding: 20px !important;
+  }
+
+  .gig-upload-box {
+    min-height: 125px;
+  }
+
+  .gig-preview-img {
+    width: 78px;
+    height: 60px;
+  }
+
+  .editor-toolbar {
+    overflow-x: auto;
+  }
+}
+.faq-create-box {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 14px;
+  background: #ffffff;
+}
+
+.faq-create-box input,
+.faq-create-box textarea {
+  border-color: #dbe3ef;
+  font-size: 14px;
+}
+
+.faq-create-box textarea {
+  resize: none;
+}
