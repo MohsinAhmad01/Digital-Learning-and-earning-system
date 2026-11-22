@@ -45,3 +45,14 @@ jobs:
           build-args: |
             VITE_API_URL=
           tags: muhsinahmad131/fyp-frontend:1.0
+
+      - name: Deploy to AWS EC2
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            cd ~/fyp-deployment
+            docker compose pull
+            docker compose up -d
