@@ -142,7 +142,7 @@ const Navbar = () => {
 
             <li className="nav-item">
               <Link className="nav-link text-white" to="/jobs">
-                Find Your Dream Job
+                Find Your Dream Jobs
               </Link>
             </li>
           </ul>
