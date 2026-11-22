@@ -6,7 +6,7 @@ import { Blog } from "../models/BlogModel.js";
 import { Job } from "../models/JobModel.js";
 import Application from "../models/JobApplication.js";
 import Gig from "../models/gigModel.js";
-import Order from "../models/orderModel.js";
+import Order from "../models/OrderModel.js";
 import Reviewmodel from "../models/ReviewModel.js";
 import Conversation from "../models/conversationModel.js";
 import Message from "../models/messageModel.js";

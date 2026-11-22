@@ -10,7 +10,7 @@ import fs from "fs";
 import mongoose from "mongoose";
 
 import Gig from "../models/gigModel.js";
-import Order from "../models/orderModel.js";
+import Order from "../models/OrderModel.js";
 import Reviewmodel from "../models/ReviewModel.js";
 
 const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);

@@ -1,4 +1,4 @@
-import Order from "../models/orderModel.js";
+import Order from "../models/OrderModel.js";
 import Gig from "../models/gigModel.js";
 import { User } from "../models/userModel.js";
 import Conversation from "../models/conversationModel.js";

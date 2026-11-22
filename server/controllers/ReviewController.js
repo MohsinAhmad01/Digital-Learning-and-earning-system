@@ -1,6 +1,6 @@
 import Reviewmodel from "../models/ReviewModel.js";
 import Gig from "../models/gigModel.js";
-import Order from "../models/orderModel.js";
+import Order from "../models/OrderModel.js";
 import { User } from "../models/userModel.js";
 import mongoose from "mongoose";
 

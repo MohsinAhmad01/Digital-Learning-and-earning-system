@@ -45,7 +45,7 @@ import Freelance from "./pages/Fiver/Freelance.jsx";
 import Setting from "./components/Setting.jsx";
 import BrowseGigs from "./pages/Fiver/Gigs/BrowseGigs.jsx";
 import GigDetails from "./pages/Fiver/Gigs/GigDetails";
-import FreelancerDashboard from "./pages/Fiver/FreelancerDashboard.jsx";
+import FreelancerDashboard from "./pages/Fiver/FreeLancerDashboard.jsx";
 import CreateGig from "./pages/Fiver/Crud/CreateGig.jsx";
 import FreelancerPublicProfile from "./pages/Fiver/FreelancerPublicProfile.jsx";
 import Messages from "./pages/Fiver/Messages.jsx";

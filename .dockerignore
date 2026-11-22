@@ -9,7 +9,7 @@ node_modules
 .env.*
 config.env
 .config.env
-
+npm-debug.log
 **/dist
 **/build
 **/coverage
